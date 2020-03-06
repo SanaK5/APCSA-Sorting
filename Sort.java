@@ -4,6 +4,12 @@ public class Sort implements SortInterface
 	public Sort() {
 
 	}
+	/* This method sorts the array using bubble sort
+	@param an array to be sorted
+	@param an integer representing the lowest index
+	@param an integer representing the highest index
+	@param a boolean determining if the array should be sorted min to max or max to min
+	*/
 	public void bubbleSort(int[] array, int lowindex, int highindex, boolean reversed) 
 	{
 
@@ -40,6 +46,12 @@ public class Sort implements SortInterface
 
 	}
 	
+	/* This method sorts the array using selection sort
+	@param an array to be sorted
+	@param an integer representing the lowest index
+	@param an integer representing the highest index
+	@param a boolean determining if the array should be sorted min to max or max to min
+	*/
     public void selectionSort(int[] array, int lowindex, int highindex, boolean reversed)
     {
 
@@ -76,6 +88,13 @@ public class Sort implements SortInterface
     	}
 
     }
+    
+    /* This method sorts the array using merge sort
+	@param an array to be sorted
+	@param an integer representing the lowest index
+	@param an integer representing the highest index
+	@param a boolean determining if the array should be sorted min to max or max to min
+	*/
     public void mergeSort(int[] array, int lowindex, int highindex, boolean reversed)
     {
 
